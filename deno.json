@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "npm:preact"
+  },
+  "deploy": {
+    "project": "4c1e633b-c5be-4480-a5e3-7e50b06ac142"
+  },
+  "imports": {
+    "@std/http": "jsr:@std/http@1",
+    "@std/path": "jsr:@std/path@1",
+    "lib": "./src/lib/mod.ts",
+    "preact": "npm:preact@10",
+    "preact-render-to-string": "npm:preact-render-to-string@6"
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["jsx-button-has-type"]
+    }
+  },
+  "tasks": {
+    "dev": "ENV=dev deno run -A --watch src/main.ts"
+  },
+  "unstable": ["broadcast-channel"]
+}

@@ -1,0 +1,19 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "deno.disablePaths": ["src/room/static", "src/room/webrtc/static"],
+  "deno.enable": true,
+  "deno.lint": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.svg": "html"
+  }
+}
