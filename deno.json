@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "dev": "ENV=dev deno run -A --watch main.ts"
+  },
+  "unstable": ["broadcast-channel"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "npm:preact"
+  },
+  "imports": {
+    "@lib": "./src/lib/mod.ts",
+    "@room": "./src/room/mod.ts",
+    "@webrtc": "./src/webrtc/mod.ts"
+  },
+  "deploy": {
+    "project": "4c1e633b-c5be-4480-a5e3-7e50b06ac142"
+  }
+}
