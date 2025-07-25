@@ -1,0 +1,20 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "files.associations": {
+    "*.svg": "html"
+  },
+  "deno.disablePaths": [
+    "src/static/",
+    "src/mod/room/static/",
+    "src/mod/webrtc/static/"
+  ]
+}
