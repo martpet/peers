@@ -1,0 +1,29 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.disablePaths": [
+    "src/static/",
+    "src/room/static/",
+    "src/webrtc/static/"
+  ],
+  "files.associations": {
+    "*.svg": "html"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  }
+}

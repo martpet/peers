@@ -1,0 +1,16 @@
+{
+  "tasks": {
+    "dev": "ENV=dev deno run -A --watch main.ts"
+  },
+  "unstable": ["broadcast-channel"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "npm:preact"
+  },
+  "imports": {
+    "@/": "./src/"
+  },
+  "deploy": {
+    "project": "4c1e633b-c5be-4480-a5e3-7e50b06ac142"
+  }
+}
